@@ -1,0 +1,259 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Majong.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Majong.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Majong"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Majong，1.0 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2012",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_MAJONG_DIALOG DIALOGEX 0, 0, 447, 343
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "日麻听牌分析器"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,375,237,50,14
+    CONTROL         "",IDC_PIC1,"Static",SS_ETCHEDFRAME | SS_SUNKEN,4,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC2,"Static",SS_ETCHEDFRAME | SS_SUNKEN,42,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC3,"Static",SS_ETCHEDFRAME | SS_SUNKEN,80,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC4,"Static",SS_ETCHEDFRAME | SS_SUNKEN,118,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC5,"Static",SS_ETCHEDFRAME | SS_SUNKEN,156,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC6,"Static",SS_ETCHEDFRAME | SS_SUNKEN,194,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC7,"Static",SS_ETCHEDFRAME | SS_SUNKEN,232,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC8,"Static",SS_ETCHEDFRAME | SS_SUNKEN,270,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC9,"Static",SS_ETCHEDFRAME | SS_SUNKEN,308,3,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC10,"Static",SS_ETCHEDFRAME | SS_SUNKEN,4,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC11,"Static",SS_ETCHEDFRAME | SS_SUNKEN,42,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC12,"Static",SS_ETCHEDFRAME | SS_SUNKEN,80,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC13,"Static",SS_ETCHEDFRAME | SS_SUNKEN,118,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC14,"Static",SS_ETCHEDFRAME | SS_SUNKEN,156,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC15,"Static",SS_ETCHEDFRAME | SS_SUNKEN,194,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC16,"Static",SS_ETCHEDFRAME | SS_SUNKEN,232,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC17,"Static",SS_ETCHEDFRAME | SS_SUNKEN,270,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC18,"Static",SS_ETCHEDFRAME | SS_SUNKEN,308,54,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC19,"Static",SS_ETCHEDFRAME | SS_SUNKEN,4,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC20,"Static",SS_ETCHEDFRAME | SS_SUNKEN,42,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC21,"Static",SS_ETCHEDFRAME | SS_SUNKEN,80,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC22,"Static",SS_ETCHEDFRAME | SS_SUNKEN,118,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC23,"Static",SS_ETCHEDFRAME | SS_SUNKEN,156,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC24,"Static",SS_ETCHEDFRAME | SS_SUNKEN,194,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC25,"Static",SS_ETCHEDFRAME | SS_SUNKEN,232,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC26,"Static",SS_ETCHEDFRAME | SS_SUNKEN,270,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC27,"Static",SS_ETCHEDFRAME | SS_SUNKEN,308,107,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC28,"Static",SS_ETCHEDFRAME | SS_SUNKEN,42,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC29,"Static",SS_ETCHEDFRAME | SS_SUNKEN,81,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC30,"Static",SS_ETCHEDFRAME | SS_SUNKEN,119,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC31,"Static",SS_ETCHEDFRAME | SS_SUNKEN,157,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC32,"Static",SS_ETCHEDFRAME | SS_SUNKEN,195,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC33,"Static",SS_ETCHEDFRAME | SS_SUNKEN,233,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC34,"Static",SS_ETCHEDFRAME | SS_SUNKEN,270,157,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC35,"Static",SS_ETCHEDFRAME | SS_SUNKEN,7,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC36,"Static",SS_ETCHEDFRAME | SS_SUNKEN,40,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC37,"Static",SS_ETCHEDFRAME | SS_SUNKEN,73,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC38,"Static",SS_ETCHEDFRAME | SS_SUNKEN,106,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC39,"Static",SS_ETCHEDFRAME | SS_SUNKEN,139,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC40,"Static",SS_ETCHEDFRAME | SS_SUNKEN,172,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC41,"Static",SS_ETCHEDFRAME | SS_SUNKEN,205,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC42,"Static",SS_ETCHEDFRAME | SS_SUNKEN,238,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC43,"Static",SS_ETCHEDFRAME | SS_SUNKEN,271,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC44,"Static",SS_ETCHEDFRAME | SS_SUNKEN,304,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC45,"Static",SS_ETCHEDFRAME | SS_SUNKEN,337,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC46,"Static",SS_ETCHEDFRAME | SS_SUNKEN,370,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC47,"Static",SS_ETCHEDFRAME | SS_SUNKEN,403,278,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC48,"Static",SS_ETCHEDFRAME | SS_SUNKEN,10,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC49,"Static",SS_ETCHEDFRAME | SS_SUNKEN,43,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC50,"Static",SS_ETCHEDFRAME | SS_SUNKEN,76,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC51,"Static",SS_ETCHEDFRAME | SS_SUNKEN,109,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC52,"Static",SS_ETCHEDFRAME | SS_SUNKEN,142,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC53,"Static",SS_ETCHEDFRAME | SS_SUNKEN,175,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC54,"Static",SS_ETCHEDFRAME | SS_SUNKEN,208,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC55,"Static",SS_ETCHEDFRAME | SS_SUNKEN,241,218,31,50,WS_EX_DLGMODALFRAME
+    CONTROL         "",IDC_PIC56,"Static",SS_ETCHEDFRAME | SS_SUNKEN,274,218,31,50,WS_EX_DLGMODALFRAME
+    GROUPBOX        "听牌结果",IDC_STATIC,3,210,315,59
+    PUSHBUTTON      "听牌分析",IDC_BEGIN_ANALYSE,363,138,64,36,WS_DISABLED
+    PUSHBUTTON      "清空牌池",IDC_ClEARALL,362,185,64,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Majong.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "Majong.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_MAJONG_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 440
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 335
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Majong(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Majong.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
